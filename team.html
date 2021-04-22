@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: black;">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>PAC IITD | TEAM</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="Figures/PAC.png" type="image" sizes="48x48" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;800&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+
+    <!-- Bootstrap4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        var scrollValue = 100;
+        var prevScrollpos = window.pageYOffset;
+
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            document.getElementsByTagName("nav")[0].setAttribute("style", "background-color: rgba(0, 0, 0, " + Math.pow((currentScrollPos) / scrollValue, 2) + ");");
+            if (prevScrollpos >= currentScrollPos) {
+                document.getElementsByTagName("nav")[0].style.transitionDuration = "0.5s";
+                document.getElementsByTagName("nav")[0].style.top = "0";
+            } else {
+                if (currentScrollPos > scrollValue) {
+                    document.getElementsByTagName("nav")[0].style.transform = "translateY(-20vh)";
+                    document.getElementsByTagName("nav")[0].style.transitionDuration = "1s";
+                }
+            }
+            prevScrollpos = currentScrollPos;
+        };
+    </script>
+</head>
+
+<body>
+    <header>
+        <script src='js/app_team.js'></script>
+        <nav id="navbar">
+            <div class="logo">
+                <img src="Figures/logo_transparent.png" alt="PHYSICS & ASTRONOMY CLUB" />
+            </div>
+            <ul class="nav-links">
+                <li><a class="nav-item active" href="index.html" style="text-decoration: none; color: #fff;">HOME</a></li>
+                <li><a class="nav-item active" href="https://home.iitd.ac.in" style="text-decoration: none;color: #fff;">IIT DELHI</a></li>
+                <li><a class="nav-item" href="team.html" style="text-decoration: none; color: #fff;">TEAM</a></li>
+                <li><a class="nav-item" href="tryst21.html" style="text-decoration: none;color: #fff;">TRYST'21</a></li>
+                <li><a class="nav-item" href="contact.html" style="text-decoration: none;color: #fff;">CONTACT US</a></li>
+            </ul>
+            <div class="burger">
+                <h1>></h1>
+            </div>
+        </nav>
+        <!-- <div id="stars"></div> -->
+        <!-- <div id="stars2"></div> -->
+        <!-- <div id="stars3"></div> -->
+    </header>
+
+    <section class="team">
+        <!-- <div class=" flex items-center h-auto lg:h-screen flex-wrap mx-auto "> -->
+
+        <!--Main Col-->
+
+        <h1 class="sm: text-4xl font-bold title-font mb-2 pt-20 pb-10" style="color: white">
+            Meet the Team!
+        </h1>
+
+        <div class="container grid mx-auto grid-cols-1 lg:grid-cols-9 gap-8 pb-10 pl-10 pr-10">
+            <div class=" lg:col-span-2" draggable="true"></div>
+            <div class=" lg:col-span-5" draggable="true">
+                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                    <div class="text-center pt-10 pt-20">
+                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center abhinav_disp_pic"></div>
+
+                        <h1 class="text-3xl font-bold pt-5">Abhinav Singh</h1>
+
+                        <h2 class="text-2xl pb-3">Overall Coordinator</h2>
+                    </div>
+                </div>
+            </div>
+            <div class=" lg:col-span-2" draggable="true"></div>
+
+            <div class=" lg:col-span-3" draggable="true">
+                <div class="lg: rounded-lg lg:rounded-lg shadow-2xl person_card">
+                    <div class="text-center pt-10 pt-20">
+                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center sanaz_disp_pic"></div>
+
+                        <h1 class="text-3xl font-bold pt-5">Sanaz</h1>
+
+                        <h2 class="text-2xl pb-3">Research Coordinator</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" lg:col-span-3" draggable="true">
+                <div class="lg: rounded-lg lg:rounded-lg shadow-2xl person_card">
+                    <div class="text-center pt-10 pt-20">
+                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center pranjal_disp_pic"></div>
+
+                        <h1 class="text-3xl font-bold pt-5">Pranjal</h1>
+
+                        <h2 class="text-2xl pb-3">Research Coordinator</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" lg:col-span-3" draggable="true">
+                <div class="lg: rounded-lg lg:rounded-lg shadow-2xl person_card">
+                    <div class="text-center pt-10 pt-20">
+                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center pushpit_disp_pic"></div>
+
+                        <h1 class="text-3xl font-bold pt-5">Pushpit</h1>
+
+                        <h2 class="text-2xl pb-3">Event Coordinator</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" lg:col-span-3" draggable="true">
+                <div class="lg: rounded-lg lg:rounded-lg shadow-2xl person_card">
+                    <div class="text-center pt-10 pt-20">
+                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center priyanshi_disp_pic"></div>
+
+                        <h1 class="text-3xl font-bold pt-5">Priyanshi</h1>
+
+                        <h2 class="text-2xl pb-3">Event Coordinator</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" lg:col-span-3" draggable="true">
+                <div class="lg: rounded-lg lg:rounded-lg shadow-2xl person_card">
+                    <div class="text-center pt-10 pt-20">
+                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center nandan_disp_pic"></div>
+
+                        <h1 class="text-3xl font-bold pt-5">Nandan</h1>
+
+                        <h2 class="text-2xl pb-3">Design Coordinator</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" lg:col-span-3" draggable="true">
+                <div class="lg: rounded-lg lg:rounded-lg shadow-2xl person_card">
+                    <div class="text-center pt-10 pt-20">
+                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center prabhpreet_disp_pic"></div>
+
+                        <h1 class="text-3xl font-bold pt-5">Prabhpreet</h1>
+
+                        <h2 class="text-2xl pb-3">Design Coordinator</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <!-- </div> -->
+    </section>
+
+    <section class="team_execs" style="margin-bottom: 65vh;">
+        <div class="container" style=" min-width: 98vw; padding: -10px;">
+            <div id="carousel" class="carousel slide" data-interval="5000">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0"></li>
+                    <li data-target="#carousel" data-slide-to="1" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item ">
+                        <div class="container grid mx-auto grid-cols-1 lg:grid-cols-12 gap-4 pb-10 pt-10 pl-10 pr-10">
+                            <div class=" lg:col-span-3" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center agrim_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Agrim</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-3" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center aakash_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Akash</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-3" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center anirudha_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Anirudha</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-3" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center arpit_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Arpit</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Second row -->
+
+                            <div class=" lg:col-span-4" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center avantika_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Avantika</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-4" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center dhruv_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Dhruv</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-4" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center gurusha_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Gurusha</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="container grid mx-auto grid-cols-1 lg:grid-cols-12 gap-4 pb-10 pt-10 pl-10 pr-10">
+                            <!-- Third row -->
+                            <div class=" lg:col-span-3" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center hari_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Hari</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-3" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center ishan_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Ishan</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-3" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center keshav_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Keshav</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-3" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center meenal_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Meenal</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Fourth row -->
+
+                            <div class=" lg:col-span-4" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center mustafa_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Mustafa</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-4" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center opal_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Opal</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-4" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center prakhar_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Prakhar</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container grid mx-auto grid-cols-1 lg:grid-cols-12 gap-4 pb-10 pt-10 pl-10 pr-10">
+                            <!-- Fifth row -->
+                            <div class=" lg:col-span-3" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center parnjal_ag_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Pranjal</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-3" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center pranshu_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Pranshu</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-3" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center riya_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Riya</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-3" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center sagar_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Sagar</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Sixth row -->
+
+                            <div class=" lg:col-span-4" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center saptarshi_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Saptarshi</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-4" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center yashasvi_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Yashasvi</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" lg:col-span-4" draggable="true">
+                                <div class="person_card lg: rounded-lg lg:rounded-lg shadow-2xl">
+                                    <div class="text-center pt-10 pt-20">
+                                        <div class="flex block lg: rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover opacity-100 bg-center yashvardhan_disp_pic"></div>
+
+                                        <h1 class="text-3xl font-bold pt-5 pb-5">Yashvardhan</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+
+    </section>
+
+
+
+    <div>
+
+        <div class="mr-10"></div>
+        <footer>
+            <div class="footer-links">
+                <ul>
+                    <li>
+                        <a id="mail" href="mailto:physicsastronomyclubiitd@gmail.com "><i class="fa fa-envelope"></i
+                  ></a>
+                    </li>
+                    <li>
+                        <a id="insta" href="https://www.instagram.com/pac_iitd/"><i class="fa fa-instagram"></i
+                  ></a>
+                    </li>
+                    <li>
+                        <a id="fb" href="https://www.facebook.com/PhysicsAndAstronomyIITD/ "><i class="fa fa-facebook"></i></a
+                  ><br />
+                </li>
+                <li>
+                  <a
+                      id="youtube"
+                      href="https://www.youtube.com/channel/UCetVYW24b8e4ukDjNaU0n2A "
+                      ><i class="fa fa-youtube"></i></a
+                  ><br />
+                </li>
+            </ul>
+          </div>
+          <div class="foot">
+            <div class="footer-logo">
+                <div class="logo-container">
+                  <img
+                      src="Figures/logo_transparent.png"
+                      alt="PHYSICS & ASTRONOMY CLUB"
+                  />
+                </div>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                  <li><a href="index.html" class="nav-link" id="active">HOME</a></li>
+                    <li><a href="https://home.iitd.ac.in" class="nav-link" id="active">IIT DELHI</a></li>
+                    <li><a href="#" class="nav-link">TEAM</a></li>
+                    <li><a href="tryst21.html" class="nav-link">TRYST'21</a></li>
+                    <li><a href="contact.html" class="nav-link">CONTACT US</a></li>
+                </ul>
+            </div>
+    </div>
+    <div class="copyright">
+        <p>COPYRIGHT &copy 2021 PHYSICS & ASTRONOMY CLUB, IIT DELHI</p>
+    </div>
+    </footer>
+    <div id="preloader">
+        <div id="loader">
+            <svg viewBox="0 0 960 300">
+                      <symbol id="s-text">
+                          <text text-anchor="middle" x="50%" y="70%">PAC</text>
+                      </symbol>
+                      <g class="g-ants">
+                          <use xlink:href="#s-text" class="text-copy"></use>
+                          <use xlink:href="#s-text" class="text-copy"></use>
+                          <use xlink:href="#s-text" class="text-copy"></use>
+                          <use xlink:href="#s-text" class="text-copy"></use>
+                          <use xlink:href="#s-text" class="text-copy"></use>
+                      </g>
+                    </svg>
+            <svg viewBox="0 0 1000 300">
+                      <symbol id="s-text-2">
+                          <text text-anchor="middle" x="50%" y="80%">IIT Delhi</text>
+                      </symbol>
+                      <g class="g-ants">
+                          <use xlink:href="#s-text-2" class="text-copy"></use>
+                          <use xlink:href="#s-text-2" class="text-copy"></use>
+                          <use xlink:href="#s-text-2" class="text-copy"></use>
+                          <use xlink:href="#s-text-2" class="text-copy"></use>
+                          <use xlink:href="#s-text-2" class="text-copy"></use>
+                      </g>
+                    </svg>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script src="./js/index.js"></script>
+    <script src="js/show-on-scroll.js"></script>
+</body>
+
+</html>
