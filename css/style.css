@@ -1041,7 +1041,7 @@ section h1 {
     font-size: 25px;
 }
 
-#events_tryst.updates embed {
+#events_tryst.updates iframe {
     width: 80vw;
     height: 80vh;
 }
