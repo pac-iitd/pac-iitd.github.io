@@ -645,74 +645,8 @@ section h1 {
     transition-delay: 0.1s;
 }
 
-.abhinav_disp_pic {
-    background: url(../assets/images/team/Abhinav_Singh_OC_cropped.jpeg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.sanaz_disp_pic {
-    background: url(../assets/images/team/Sanaz_Agarwal_Coordi.jpg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.pranjal_disp_pic {
-    background: url(../assets/images/team/Pranjal_Rai.jpg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.pushpit_disp_pic {
-    background: url(../assets/images/team/Pushpit_Srivastava_Coordi.jpg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.priyanshi_disp_pic {
-    background: url(../assets/images/team/Priyanshi_Coordi.jpg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
 .nandan_disp_pic {
     background: url(../assets/images/team/Nandan_I_P.png);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.prabhpreet_disp_pic {
-    background: url(../assets/images/team/Prabhpreet.jpeg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.agrim_disp_pic {
-    background: url(../assets/images/team/Agrim_Singh.jpg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.aakash_disp_pic {
-    background: url(../assets/images/team/Aakash_Goel.jpg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.anirudha_disp_pic {
-    background: url(../assets/images/team/Anirudha_Kulkarni.jpg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.arpit_disp_pic {
-    background: url(../assets/images/team/ArpitHarit.jpg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.avantika_disp_pic {
-    background: url(../assets/images/team/Avantika_Agarwal.jpg);
     background-size: 200px;
     background-repeat: no-repeat;
 }
@@ -729,26 +663,8 @@ section h1 {
     background-repeat: no-repeat;
 }
 
-.hari_disp_pic {
-    background: url(../assets/images/team/Hari_Shankar.jpg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.ishan_disp_pic {
-    background: url(../assets/images/team/Ishan_Agrawal.jpg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.keshav_disp_pic {
-    background: url(../assets/images/team/Keshav.jpeg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
 .meenal_disp_pic {
-    background: url(../assets/images/team/Meenal_Sharma.jpg);
+    background: url(../assets/images/team/MeenalSharma_EventsandPublicityCoordinator.jpg);
     background-size: 200px;
     background-repeat: no-repeat;
 }
@@ -760,43 +676,7 @@ section h1 {
 }
 
 .opal_disp_pic {
-    background: url(../assets/images/team/Opal.jpg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.prakhar_disp_pic {
-    background: url(../assets/images/team/Prakhar_Bangaria.jpg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.parnjal_ag_disp_pic {
-    background: url(../assets/images/team/Pranjal_Aggarwal.png);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.pranshu_disp_pic {
-    background: url(../assets/images/team/Pranshu_Bhagat.JPG);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.riya_disp_pic {
-    background: url(../assets/images/team/Riya_Sharma.jpg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.sagar_disp_pic {
-    background: url(../assets/images/team/Sagar_Sharma.jpg);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
-.saptarshi_disp_pic {
-    background: url(../assets/images/team/saptarshi.jpg);
+    background: url(../assets/images/team/OpalHarinkhere_DesignCoordinator.jpg);
     background-size: 200px;
     background-repeat: no-repeat;
 }
@@ -812,6 +692,144 @@ section h1 {
     background-size: 200px;
     background-repeat: no-repeat;
 }
+
+.saptarshi_disp_pic {
+    background: url(../assets/images/team/SaptarshiDasgupta_Research_Executive.jpeg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.adarsh_disp_pic {
+    background: url(../assets/images/team/AdarshRoy_DesignExecutive.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.aditya_disp_pic {
+    background: url(../assets/images/team/AdityaAgrawal_volunteer_.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.akash_disp_pic {
+    background: url(../assets/images/team/Akash_Dhingra_Research_And_Web_Dev_Executive.jpeg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.amit_disp_pic {
+    background: url(../assets/images/team/AmitKansotiya_DesignExecutive_.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.ankita_disp_pic {
+    background: url(../assets/images/team/Ankita_Ghosh_ResearchExecutive.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.ankit_disp_pic {
+    background: url(../assets/images/team/AnkitMeena_ResearchExecutive.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.ashutosh_disp_pic {
+    background: url(../assets/images/team/AshutoshGupta_EventsandPublicityExecutive.jpeg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.dhruv_b_disp_pic {
+    background: url(../assets/images/team/DhruvBagrecha_DesignExecutive.jpeg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+
+.dhruv_s_disp_pic {
+    background: url(../assets/images/team/DhruvSaini_WebDevExecutive.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.gurarmaan_disp_pic {
+    background: url(../assets/images/team/GurarmaanSinghPanjeta_ResearchExecutive.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.harshit_disp_pic {
+    background: url(../assets/images/team/Harshitkalra_webdevExecutive.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.himanshu_disp_pic {
+    background: url(../assets/images/team/HimanshuGauravSingh_ResearchEexecutive.jpeg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.ishaan_disp_pic {
+    background: url(../assets/images/team/IshaanJain_Volunteer.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.jayati_disp_pic {
+    background: url(../assets/images/team/JayatiMadan_Executive_Eventsandpublicity.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.kartik_disp_pic {
+    background: url(../assets/images/team/KartikSharma_Executive.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.khyati_disp_pic {
+    background: url(../assets/images/team/khyatikaria_design.jpeg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.kirti_disp_pic {
+    background: url(../assets/images/team/KirtiBagri_DesignExecutive);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.mohit_disp_pic {
+    background: url(../assets/images/team/MohitGoswami_Eventsandpublicity.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.mudit_disp_pic {
+    background: url(../assets/images/team/MuditChopra_ResearchExecutive.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.mudrankit_disp_pic {
+    background: url(../assets/images/team/MudrankitGupta_EventsandPublicityExecutive.jpeg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.samyak_disp_pic {
+    background: url(../assets/images/team/SamyakJain_volunteer.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.shradha_disp_pic {
+    background: url(../assets/images/team/Shradha_webdevelopementanddesignexecutive.jpeg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.soutrik_disp_pic {
+    background: url(../assets/images/team/SoutrikMandal_ResearchExecutive.jpeg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.sujal_disp_pic {
+    background: url(../assets/images/team/Sujaljain_webexecutive.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.sukanya_disp_pic {
+    background: url(../assets/images/team/SukanyaGhosal_Executive.jpeg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
 
 .bg-indigo-500 {
     visibility: hidden;
