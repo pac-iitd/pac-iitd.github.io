@@ -1686,7 +1686,7 @@ body {
   }
 
   .CurrentProjects{
-      background-image: url('../Figures/dblogback1.jpg');
+      background-image: url('../Figures/blogback2.jpg');
       background-size: cover;
   }
   .title {
@@ -1694,8 +1694,17 @@ body {
       margin-bottom: 50px;
       text-transform: uppercase;
   }
+  .row{
+    background-color: black;
+    color: #dfd6d6;
+  }
   .blg{
       color: #d4d4d5;
+  }
+
+  .bltext{
+    font-family: 'Ubuntu', sans-serif;
+      font-size: 18px;
   }
   .card-block {
       font-size: 1em;
@@ -1744,11 +1753,13 @@ body {
       background-color: #404040;
   }
   .carousel-indicators .active {
-      background-color: white;
+      background-color: rgb(235, 230, 228);
       max-width: 12px;
       margin: 0 3px;
       height: 12px;
   }
+
+  
   .carousel-control-prev-icon {
    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
   }
