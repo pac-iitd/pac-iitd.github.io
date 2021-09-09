@@ -1739,7 +1739,9 @@ body {
     width: 90%
    }
   
-  
+  .blg-row{
+      height: 257px;
+  }
   .carousel-indicators li {
       border-radius: 12px;
       width: 12px;
