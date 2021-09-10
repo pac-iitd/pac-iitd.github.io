@@ -1681,10 +1681,6 @@ bi {
 
 /* Current Projects Blog (home page) */
 
-body {
-    background-color:  rgb(136, 15, 15);
-  }
-
   .CurrentProjects{
       background-image: url('../Figures/blogback2.jpg');
       background-size: cover;
@@ -1706,7 +1702,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
       font-size: 18px;
   }
-  .card-block {
+  .card_blog-block {
       font-size: 1em;
       position: relative;
       margin: 0;
@@ -1716,7 +1712,7 @@ body {
       box-shadow: none;
        
   }
-  .card {
+  .card_blog {
       font-size: 1em;
       overflow: hidden;
       padding: 5;
