@@ -812,7 +812,7 @@ section h1 {
 }
 
 .card img {
-    background-color: white;
+    background-color: #02020a;
     padding: 10px;
     width: 100%;
     height: 100%;
@@ -1681,10 +1681,18 @@ bi {
 
 /* Current Projects Blog (home page) */
 
-  .CurrentProjects{
+body {
+    background-color:  rgb(136, 15, 15);
+  }
+
+  .Blogs{
       background-image: url('../Figures/blogback2.jpg');
       background-size: cover;
   }
+  .CurrentProjects{
+    background-image: url('../Figures/wp5974775.jpg');
+    background-size: cover;
+}
   .title {
    
       margin-bottom: 50px;
@@ -1698,11 +1706,22 @@ bi {
       color: #d4d4d5;
   }
 
+  .bltitle{
+    font-family: 'Ubuntu', sans-serif;
+      font-size: 24px;
+  }
   .bltext{
     font-family: 'Ubuntu', sans-serif;
-      font-size: 18px;
-  }
-  .card_blog-block {
+      font-size: 16px;
+    }
+
+    /* .bltext-sp{
+        align-items: flex-start;
+    } */
+    ul {
+        text-align: left;
+      }
+  .card-block {
       font-size: 1em;
       position: relative;
       margin: 0;
@@ -1712,7 +1731,7 @@ bi {
       box-shadow: none;
        
   }
-  .card_blog {
+  .card {
       font-size: 1em;
       overflow: hidden;
       padding: 5;
@@ -1724,6 +1743,10 @@ bi {
       width: 90%;
   }
 
+  .proj-card{
+      width: 60%;
+      margin: 60px 40px 40px 240px;
+  }
   .carwr{
     font-size: 1em;
     overflow: hidden;
@@ -1738,20 +1761,24 @@ bi {
   .blg-row{
       height: 257px;
   }
+
+  .proj-row{
+    height: 230px;
+}
   .carousel-indicators li {
       border-radius: 12px;
       width: 12px;
       height: 12px;
-      background-color: #404040;
+      background-color: #181212;
   }
   .carousel-indicators li {
       border-radius: 12px;
       width: 12px;
       height: 12px;
-      background-color: #404040;
+      background-color: #181313;
   }
   .carousel-indicators .active {
-      background-color: rgb(235, 230, 228);
+      background-color: rgb(26, 22, 20);
       max-width: 12px;
       margin: 0 3px;
       height: 12px;
