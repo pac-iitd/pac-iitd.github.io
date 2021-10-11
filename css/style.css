@@ -1681,10 +1681,6 @@ bi {
 
 /* Current Projects Blog (home page) */
 
-body {
-    background-color:  rgb(136, 15, 15);
-  }
-
   .Blogs{
       background-image: url('../Figures/blogback2.jpg');
       background-size: cover;
@@ -1721,7 +1717,7 @@ body {
     ul {
         text-align: left;
       }
-  .card-block {
+  .card_blog-block {
       font-size: 1em;
       position: relative;
       margin: 0;
@@ -1731,16 +1727,16 @@ body {
       box-shadow: none;
        
   }
-  .card {
+  .card_blog {
       font-size: 1em;
       overflow: hidden;
       padding: 5;
       border: none;
       border-radius: .28571429rem;
       box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
-      margin: 60px 40px 40px 40px;
+      margin: 60px 40px 40px 240px;
       background-color: cadetblue;
-      width: 90%;
+      width: 60%;
   }
 
   .proj-card{
