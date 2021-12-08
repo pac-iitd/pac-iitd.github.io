@@ -484,10 +484,8 @@ section c {
 }
 
 .timer-card{
-    max-width: 120px;
-    max-height: 100px;
-    min-width: 100px;
-    min-height: 100px;
+    width: 100px;
+    height: 100px;
     border-radius: 20px;
     border-style: solid;
     border-color: rgba(0, 0, 0, 1);
@@ -538,6 +536,11 @@ section c {
 .event_details{
     padding-top: 20px;
     font-size: 25px;
+}
+
+.event_details .title{
+    font-size: 35px !important; 
+    text-align: left !important;
 }
 
 .up_events_cover .button{
@@ -1274,6 +1277,40 @@ bi {
     .person_card {
         max-height: 100vh;
         pointer-events: none;
+    }
+
+    .cur_event{
+        margin-top: -30px;
+    }
+
+    .timer-card{
+        margin-top: -30px;
+        width: 65px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .timer-card-caption{
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+    .event_details{
+        padding-top: 20px;
+        font-size: 18px;
+    }
+    .event_details .title{
+        font-size: 25px  !important; 
+        text-align: left !important;
+        margin-bottom: 0;
+    }
+    .up_events_cover .button{
+        top: 95%;
+        right: 30%;
+        left: 30%;
+        font-size: 15px;
+        padding: 5px;
     }
 }
 
