@@ -24,12 +24,15 @@ var x = setInterval(function() {
     document.getElementById("minutes").innerHTML = 0;
     document.getElementById("seconds").innerHTML = 0;
   }
+  else{
+    // Output the result in an element with id="demo"
+    document.getElementById("days").innerHTML = days;
+    document.getElementById("hours").innerHTML = hours;
+    document.getElementById("minutes").innerHTML = minutes;
+    document.getElementById("seconds").innerHTML = seconds;
+    
+  }
 
-  // Output the result in an element with id="demo"
-  document.getElementById("days").innerHTML = days;
-  document.getElementById("hours").innerHTML = hours;
-  document.getElementById("minutes").innerHTML = minutes;
-  document.getElementById("seconds").innerHTML = seconds;
     
   
 }, 1000);
