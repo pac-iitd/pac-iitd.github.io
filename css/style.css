@@ -1839,7 +1839,7 @@ bi {
       margin: 0;
       padding: 1em;
       border: none;
-      border-top: 1px solid rgba(215, 221, 226, 0.1);
+      /* border-top: 1px solid rgba(215, 221, 226, 0.1); */
       box-shadow: none;
        
   }
@@ -1850,15 +1850,17 @@ bi {
       border: none;
       border-radius: .28571429rem;
       box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
-      margin: 60px 40px 40px 240px;
-      background-color: cadetblue;
-      width: 60%;
+      /* margin: 60px 40px 40px 240px; */
+      background-color: black;
+      /* background-image: linear-gradient(60deg, rgb(0, 0, 0), rgba(50, 50, 50)); */
+      /* max-width: 60%; */
+      color: white;
   }
 
-  .proj-card{
+  /* .proj-card{
       width: 60%;
       margin: 60px 40px 40px 240px;
-  }
+  } */
   .carwr{
     font-size: 1em;
     overflow: hidden;
@@ -1909,4 +1911,9 @@ bi {
   
   .btn {
     margin-top: auto;
+  }
+
+  .d-block{
+      padding: 0 !important;
+      background-color: transparent !important;
   }
