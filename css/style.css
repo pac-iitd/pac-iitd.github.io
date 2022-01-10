@@ -1285,20 +1285,20 @@ bi {
 
     .timer-card{
         margin-top: -30px;
-        width: 65px;
-        height: 50px;
+        width: 50px;
+        height: 45px;
         font-size: 20px;
         font-weight: 500;
         border-radius: 5px;
     }
     .timer-card-caption{
-        font-size: 15px;
+        font-size: 12px;
         margin-top: 0;
     }
 
     .event_details{
         padding-top: 20px;
-        font-size: 18px;
+        font-size: 15px;
     }
     .event_details .title{
         font-size: 25px  !important; 
