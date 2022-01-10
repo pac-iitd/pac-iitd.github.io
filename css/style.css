@@ -1285,14 +1285,14 @@ bi {
 
     .timer-card{
         margin-top: -30px;
-        width: 50px;
+        width: 15vw;
         height: 45px;
         font-size: 20px;
         font-weight: 500;
         border-radius: 5px;
     }
     .timer-card-caption{
-        font-size: 12px;
+        font-size: 3vw;
         margin-top: 0;
     }
 
